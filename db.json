@@ -799,6 +799,14 @@
       "age": 35,
       "email": "ruslan.jandosov100@example.com",
       "phone": "77010000100"
+    },
+    {
+      "id": 101,
+      "firstName": "Meirzhan",
+      "lastName": "Amangaliev",
+      "age": 20,
+      "email": "meiirzhan04@gmail.com",
+      "phone": "7077146923"
     }
   ]
 }

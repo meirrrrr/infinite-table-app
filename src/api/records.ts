@@ -1,8 +1,8 @@
 import { apiClient } from "./axios";
-
 import { type RecordItem, type RecordsResponse } from "./types";
+import { useUserIdStore } from "@/stores/useUserIdStore";
+import PAGE_SIZE from "@/constants/page_size";
 
-const PAGE_SIZE = 20;
 export async function fetchRecordsPage(page: number): Promise<RecordsResponse> {
   const response = await apiClient.get<any>("/records", {
     params: {
@@ -14,6 +14,9 @@ export async function fetchRecordsPage(page: number): Promise<RecordsResponse> {
   const data = response.data;
   const totalCount = data.items;
   const records = data.data;
+  console.log("fetchRecordsPage получил totalCount =", totalCount);
+
+  useUserIdStore.getState().setLastId(totalCount);
 
   return {
     records,
@@ -22,6 +25,7 @@ export async function fetchRecordsPage(page: number): Promise<RecordsResponse> {
 }
 
 export async function createRecord(payload: {
+  id: number;
   firstName: string;
   lastName: string;
   age: number;

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import { createRecord } from "@/api/records";
+import { useUserIdStore } from "@/stores/useUserIdStore";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -19,6 +20,9 @@ export const CreateRecordPage: React.FC = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
+  const lastId = useUserIdStore((state) => state.lastId);
+  const getNextId = useUserIdStore((state) => state.getNextId);
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
@@ -33,13 +37,12 @@ export const CreateRecordPage: React.FC = () => {
       setError("Все поля обязательны.");
       return;
     }
-
     if (fName.length < 2) {
-      setError("At least 2 digit for name");
+      setError("At least 2 characters for name");
       return;
     }
     if (lName.length < 2) {
-      setError("At least 2 digit for last name");
+      setError("At least 2 characters for last name");
       return;
     }
 
@@ -56,10 +59,9 @@ export const CreateRecordPage: React.FC = () => {
 
     const digitsOnly = phRaw.replace(/\D/g, "");
     if (digitsOnly.length !== 10) {
-      setError("Phone number should contain 11 digit");
+      setError("Phone number should contain 11 digits");
       return;
     }
-
     if (!digitsOnly.startsWith("7")) {
       setError("Phone number should start with 7");
       return;
@@ -67,13 +69,17 @@ export const CreateRecordPage: React.FC = () => {
 
     setIsSubmitting(true);
     try {
+      const newId = getNextId();
+
       await createRecord({
+        id: newId,
         firstName: fName,
         lastName: lName,
         age: ageNum,
         email: eMail,
         phone: digitsOnly,
       });
+
       navigate("/");
     } catch (err) {
       setError((err as Error).message);
@@ -90,6 +96,19 @@ export const CreateRecordPage: React.FC = () => {
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-6">
+            <div>
+              <Label htmlFor="id" className="text-sm font-medium text-gray-700">
+                User ID
+              </Label>
+              <Input
+                id="id"
+                type="number"
+                value={lastId + 1}
+                disabled
+                className="mt-1 bg-gray-100 cursor-not-allowed"
+              />
+            </div>
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <Label
