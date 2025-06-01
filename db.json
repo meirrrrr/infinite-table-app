@@ -1,0 +1,804 @@
+{
+  "records": [
+    {
+      "id": "1",
+      "firstName": "Ayan",
+      "lastName": "Abayev",
+      "age": 20,
+      "email": "ayan.abayev1@example.com",
+      "phone": "77010000001"
+    },
+    {
+      "id": "2",
+      "firstName": "Altynai",
+      "lastName": "Akhmetova",
+      "age": 21,
+      "email": "altynai.akhметова2@example.com",
+      "phone": "77010000002"
+    },
+    {
+      "id": "3",
+      "firstName": "Nurzhan",
+      "lastName": "Baimuratov",
+      "age": 22,
+      "email": "nurzhan.baimuratov3@example.com",
+      "phone": "77010000003"
+    },
+    {
+      "id": "4",
+      "firstName": "Aigerim",
+      "lastName": "Dulatbek",
+      "age": 23,
+      "email": "aigerim.dulatbek4@example.com",
+      "phone": "77010000004"
+    },
+    {
+      "id": "5",
+      "firstName": "Yerbolat",
+      "lastName": "Esenova",
+      "age": 24,
+      "email": "yerbolat.esenova5@example.com",
+      "phone": "77010000005"
+    },
+    {
+      "id": "6",
+      "firstName": "Madina",
+      "lastName": "Zhakupova",
+      "age": 25,
+      "email": "madina.zhakupova6@example.com",
+      "phone": "77010000006"
+    },
+    {
+      "id": "7",
+      "firstName": "Dastan",
+      "lastName": "Iskakov",
+      "age": 26,
+      "email": "dastan.iskakov7@example.com",
+      "phone": "77010000007"
+    },
+    {
+      "id": "8",
+      "firstName": "Zhanar",
+      "lastName": "Kassenova",
+      "age": 27,
+      "email": "zhanar.kassenova8@example.com",
+      "phone": "77010000008"
+    },
+    {
+      "id": "9",
+      "firstName": "Baurzhan",
+      "lastName": "Mukashev",
+      "age": 28,
+      "email": "baurzhan.mukashev9@example.com",
+      "phone": "77010000009"
+    },
+    {
+      "id": "10",
+      "firstName": "Gulnur",
+      "lastName": "Nurgaliyev",
+      "age": 29,
+      "email": "gulnur.nurgaliyev10@example.com",
+      "phone": "77010000010"
+    },
+    {
+      "id": "11",
+      "firstName": "Serik",
+      "lastName": "Omarova",
+      "age": 30,
+      "email": "serik.omarova11@example.com",
+      "phone": "77010000011"
+    },
+    {
+      "id": "12",
+      "firstName": "Zhandos",
+      "lastName": "Rasulova",
+      "age": 31,
+      "email": "zhandos.rasulova12@example.com",
+      "phone": "77010000012"
+    },
+    {
+      "id": "13",
+      "firstName": "Dana",
+      "lastName": "Serikbayev",
+      "age": 32,
+      "email": "dana.serikbayev13@example.com",
+      "phone": "77010000013"
+    },
+    {
+      "id": "14",
+      "firstName": "Askar",
+      "lastName": "Tulegenov",
+      "age": 33,
+      "email": "askar.tulegenov14@example.com",
+      "phone": "77010000014"
+    },
+    {
+      "id": "15",
+      "firstName": "Farida",
+      "lastName": "Umarova",
+      "age": 34,
+      "email": "farida.umarova15@example.com",
+      "phone": "77010000015"
+    },
+    {
+      "id": "16",
+      "firstName": "Madi",
+      "lastName": "Yessengaliyev",
+      "age": 35,
+      "email": "madi.yessengaliyev16@example.com",
+      "phone": "77010000016"
+    },
+    {
+      "id": "17",
+      "firstName": "Saule",
+      "lastName": "Zharaskhanov",
+      "age": 36,
+      "email": "saule.zharaskhanov17@example.com",
+      "phone": "77010000017"
+    },
+    {
+      "id": "18",
+      "firstName": "Azamat",
+      "lastName": "Karimova",
+      "age": 37,
+      "email": "azamat.karimova18@example.com",
+      "phone": "77010000018"
+    },
+    {
+      "id": "19",
+      "firstName": "Aida",
+      "lastName": "Imashev",
+      "age": 38,
+      "email": "aida.imashev19@example.com",
+      "phone": "77010000019"
+    },
+    {
+      "id": "20",
+      "firstName": "Ruslan",
+      "lastName": "Jandosov",
+      "age": 39,
+      "email": "ruslan.jandosov20@example.com",
+      "phone": "77010000020"
+    },
+    {
+      "id": "21",
+      "firstName": "Ayan",
+      "lastName": "Abayev",
+      "age": 40,
+      "email": "ayan.abayev21@example.com",
+      "phone": "77010000021"
+    },
+    {
+      "id": "22",
+      "firstName": "Altynai",
+      "lastName": "Akhmetova",
+      "age": 20,
+      "email": "altynai.akhmetova22@example.com",
+      "phone": "77010000022"
+    },
+    {
+      "id": "23",
+      "firstName": "Nurzhan",
+      "lastName": "Baimuratov",
+      "age": 21,
+      "email": "nurzhan.baimuratov23@example.com",
+      "phone": "77010000023"
+    },
+    {
+      "id": "24",
+      "firstName": "Aigerim",
+      "lastName": "Dulatbek",
+      "age": 22,
+      "email": "aigerim.dulatbek24@example.com",
+      "phone": "77010000024"
+    },
+    {
+      "id": "25",
+      "firstName": "Yerbolat",
+      "lastName": "Esenova",
+      "age": 23,
+      "email": "yerbolat.esenova25@example.com",
+      "phone": "77010000025"
+    },
+    {
+      "id": "26",
+      "firstName": "Madina",
+      "lastName": "Zhakupova",
+      "age": 24,
+      "email": "madina.zhakupova26@example.com",
+      "phone": "77010000026"
+    },
+    {
+      "id": "27",
+      "firstName": "Dastan",
+      "lastName": "Iskakov",
+      "age": 25,
+      "email": "dastan.iskakov27@example.com",
+      "phone": "77010000027"
+    },
+    {
+      "id": "28",
+      "firstName": "Zhanar",
+      "lastName": "Kassenova",
+      "age": 26,
+      "email": "zhanar.kassenova28@example.com",
+      "phone": "77010000028"
+    },
+    {
+      "id": "29",
+      "firstName": "Baurzhan",
+      "lastName": "Mukashev",
+      "age": 27,
+      "email": "baurzhan.mukashev29@example.com",
+      "phone": "77010000029"
+    },
+    {
+      "id": "30",
+      "firstName": "Gulnur",
+      "lastName": "Nurgaliyev",
+      "age": 28,
+      "email": "gulnur.nurgaliyev30@example.com",
+      "phone": "77010000030"
+    },
+    {
+      "id": "31",
+      "firstName": "Serik",
+      "lastName": "Omarova",
+      "age": 29,
+      "email": "serik.omarova31@example.com",
+      "phone": "77010000031"
+    },
+    {
+      "id": "32",
+      "firstName": "Zhandos",
+      "lastName": "Rasulova",
+      "age": 30,
+      "email": "zhandos.rasulova32@example.com",
+      "phone": "77010000032"
+    },
+    {
+      "id": "33",
+      "firstName": "Dana",
+      "lastName": "Serikbayev",
+      "age": 31,
+      "email": "dana.serikbayev33@example.com",
+      "phone": "77010000033"
+    },
+    {
+      "id": "34",
+      "firstName": "Askar",
+      "lastName": "Tulegenov",
+      "age": 32,
+      "email": "askar.tulegenov34@example.com",
+      "phone": "77010000034"
+    },
+    {
+      "id": "35",
+      "firstName": "Farida",
+      "lastName": "Umarova",
+      "age": 33,
+      "email": "farida.umarova35@example.com",
+      "phone": "77010000035"
+    },
+    {
+      "id": "36",
+      "firstName": "Madi",
+      "lastName": "Yessengaliyev",
+      "age": 34,
+      "email": "madi.yessengaliyev36@example.com",
+      "phone": "77010000036"
+    },
+    {
+      "id": "37",
+      "firstName": "Saule",
+      "lastName": "Zharaskhanov",
+      "age": 35,
+      "email": "saule.zharaskhanov37@example.com",
+      "phone": "77010000037"
+    },
+    {
+      "id": "38",
+      "firstName": "Azamat",
+      "lastName": "Karimova",
+      "age": 36,
+      "email": "azamat.karimова38@example.com",
+      "phone": "77010000038"
+    },
+    {
+      "id": "39",
+      "firstName": "Aida",
+      "lastName": "Imashev",
+      "age": 37,
+      "email": "aida.imashev39@example.com",
+      "phone": "77010000039"
+    },
+    {
+      "id": "40",
+      "firstName": "Ruslan",
+      "lastName": "Jandosov",
+      "age": 38,
+      "email": "ruslan.jandosov40@example.com",
+      "phone": "77010000040"
+    },
+    {
+      "id": "41",
+      "firstName": "Ayan",
+      "lastName": "Abayek",
+      "age": 39,
+      "email": "ayan.abayev41@example.com",
+      "phone": "77010000041"
+    },
+    {
+      "id": "42",
+      "firstName": "Altynai",
+      "lastName": "Akhmetova",
+      "age": 40,
+      "email": "altynai.akhmetova42@example.com",
+      "phone": "77010000042"
+    },
+    {
+      "id": "43",
+      "firstName": "Nurzhan",
+      "lastName": "Baimuratov",
+      "age": 20,
+      "email": "nurzhan.baimuratov43@example.com",
+      "phone": "77010000043"
+    },
+    {
+      "id": "44",
+      "firstName": "Aigerim",
+      "lastName": "Dulatbek",
+      "age": 21,
+      "email": "aigerim.dulatbek44@example.com",
+      "phone": "77010000044"
+    },
+    {
+      "id": "45",
+      "firstName": "Yerbolat",
+      "lastName": "Esenova",
+      "age": 22,
+      "email": "yerbolat.esenova45@example.com",
+      "phone": "77010000045"
+    },
+    {
+      "id": "46",
+      "firstName": "Madina",
+      "lastName": "Zhakupova",
+      "age": 23,
+      "email": "madina.zhakупova46@example.com",
+      "phone": "77010000046"
+    },
+    {
+      "id": "47",
+      "firstName": "Dastan",
+      "lastName": "Iskakov",
+      "age": 24,
+      "email": "dastan.iskakov47@example.com",
+      "phone": "77010000047"
+    },
+    {
+      "id": "48",
+      "firstName": "Zhanar",
+      "lastName": "Kassenova",
+      "age": 25,
+      "email": "zhanar.kassenova48@example.com",
+      "phone": "77010000048"
+    },
+    {
+      "id": "49",
+      "firstName": "Baurzhan",
+      "lastName": "Mukashev",
+      "age": 26,
+      "email": "baurzhan.mukashev49@example.com",
+      "phone": "77010000049"
+    },
+    {
+      "id": "50",
+      "firstName": "Gulnur",
+      "lastName": "Nurgaliyev",
+      "age": 27,
+      "email": "gulnur.nurgaliyev50@example.com",
+      "phone": "77010000050"
+    },
+    {
+      "id": "51",
+      "firstName": "Serik",
+      "lastName": "Omarovа",
+      "age": 28,
+      "email": "serik.omarова51@example.com",
+      "phone": "77010000051"
+    },
+    {
+      "id": "52",
+      "firstName": "Zhandos",
+      "lastName": "Rasulova",
+      "age": 29,
+      "email": "zhandos.rasulova52@example.com",
+      "phone": "77010000052"
+    },
+    {
+      "id": "53",
+      "firstName": "Dana",
+      "lastName": "Serikbayev",
+      "age": 30,
+      "email": "dana.serikbayev53@example.com",
+      "phone": "77010000053"
+    },
+    {
+      "id": "54",
+      "firstName": "Askar",
+      "lastName": "Tulegenov",
+      "age": 31,
+      "email": "askar.tulegenov54@example.com",
+      "phone": "77010000054"
+    },
+    {
+      "id": "55",
+      "firstName": "Farida",
+      "lastName": "Umarova",
+      "age": 32,
+      "email": "farida.umarова55@example.com",
+      "phone": "77010000055"
+    },
+    {
+      "id": "56",
+      "firstName": "Madi",
+      "lastName": "Yessengaliyev",
+      "age": 33,
+      "email": "madi.yessengaliyev56@example.com",
+      "phone": "77010000056"
+    },
+    {
+      "id": "57",
+      "firstName": "Saule",
+      "lastName": "Zharaskhanov",
+      "age": 34,
+      "email": "saule.zharaskhanov57@example.com",
+      "phone": "77010000057"
+    },
+    {
+      "id": "58",
+      "firstName": "Azamat",
+      "lastName": "Karimova",
+      "age": 35,
+      "email": "azamat.karimova58@example.com",
+      "phone": "77010000058"
+    },
+    {
+      "id": "59",
+      "firstName": "Aida",
+      "lastName": "Imashev",
+      "age": 36,
+      "email": "aida.imashev59@example.com",
+      "phone": "77010000059"
+    },
+    {
+      "id": "60",
+      "firstName": "Ruslan",
+      "lastName": "Jandosov",
+      "age": 37,
+      "email": "ruslan.jandosov60@example.com",
+      "phone": "77010000060"
+    },
+    {
+      "id": "61",
+      "firstName": "Ayan",
+      "lastName": "Abayev",
+      "age": 38,
+      "email": "ayan.abayev61@example.com",
+      "phone": "77010000061"
+    },
+    {
+      "id": "62",
+      "firstName": "Altynai",
+      "lastName": "Akhmetova",
+      "age": 39,
+      "email": "altynai.akhметова62@example.com",
+      "phone": "77010000062"
+    },
+    {
+      "id": "63",
+      "firstName": "Nurzhan",
+      "lastName": "Baimuratov",
+      "age": 40,
+      "email": "nurzhan.baimuratov63@example.com",
+      "phone": "77010000063"
+    },
+    {
+      "id": "64",
+      "firstName": "Aigerim",
+      "lastName": "Dulatbek",
+      "age": 20,
+      "email": "aigerim.dulatbek64@example.com",
+      "phone": "77010000064"
+    },
+    {
+      "id": "65",
+      "firstName": "Yerbolat",
+      "lastName": "Esenova",
+      "age": 21,
+      "email": "yerbolat.esenova65@example.com",
+      "phone": "77010000065"
+    },
+    {
+      "id": "66",
+      "firstName": "Madina",
+      "lastName": "Zhakупova",
+      "age": 22,
+      "email": "madina.zhakупова66@example.com",
+      "phone": "77010000066"
+    },
+    {
+      "id": "67",
+      "firstName": "Dastan",
+      "lastName": "Iskakov",
+      "age": 23,
+      "email": "dastan.iskakov67@example.com",
+      "phone": "77010000067"
+    },
+    {
+      "id": "68",
+      "firstName": "Zhanar",
+      "lastName": "Kassenova",
+      "age": 24,
+      "email": "zhanar.kassenova68@example.com",
+      "phone": "77010000068"
+    },
+    {
+      "id": "69",
+      "firstName": "Baurzhan",
+      "lastName": "Mukashev",
+      "age": 25,
+      "email": "baurzhan.mukashev69@example.com",
+      "phone": "77010000069"
+    },
+    {
+      "id": "70",
+      "firstName": "Gulnur",
+      "lastName": "Nurgaliyev",
+      "age": 26,
+      "email": "gulnur.nurgaliyev70@example.com",
+      "phone": "77010000070"
+    },
+    {
+      "id": "71",
+      "firstName": "Serik",
+      "lastName": "Omarova",
+      "age": 27,
+      "email": "serik.omarova71@example.com",
+      "phone": "77010000071"
+    },
+    {
+      "id": "72",
+      "firstName": "Zhandos",
+      "lastName": "Rasulova",
+      "age": 28,
+      "email": "zhandos.rasulova72@example.com",
+      "phone": "77010000072"
+    },
+    {
+      "id": "73",
+      "firstName": "Dana",
+      "lastName": "Serikbayev",
+      "age": 29,
+      "email": "dana.serikbayev73@example.com",
+      "phone": "77010000073"
+    },
+    {
+      "id": "74",
+      "firstName": "Askar",
+      "lastName": "Tulegenov",
+      "age": 30,
+      "email": "askar.tulegenov74@example.com",
+      "phone": "77010000074"
+    },
+    {
+      "id": "75",
+      "firstName": "Farida",
+      "lastName": "Umarova",
+      "age": 31,
+      "email": "farida.umarова75@example.com",
+      "phone": "77010000075"
+    },
+    {
+      "id": "76",
+      "firstName": "Madi",
+      "lastName": "Yessengaliyev",
+      "age": 32,
+      "email": "madi.yessengaliyev76@example.com",
+      "phone": "77010000076"
+    },
+    {
+      "id": "77",
+      "firstName": "Saule",
+      "lastName": "Zharaskhanov",
+      "age": 33,
+      "email": "saule.zharaskhanov77@example.com",
+      "phone": "77010000077"
+    },
+    {
+      "id": "78",
+      "firstName": "Azamat",
+      "lastName": "Karimova",
+      "age": 34,
+      "email": "azamat.karimова78@example.com",
+      "phone": "77010000078"
+    },
+    {
+      "id": "79",
+      "firstName": "Aida",
+      "lastName": "Imashev",
+      "age": 35,
+      "email": "aida.imashev79@example.com",
+      "phone": "77010000079"
+    },
+    {
+      "id": "80",
+      "firstName": "Ruslan",
+      "lastName": "Jandosov",
+      "age": 36,
+      "email": "ruslan.jandosov80@example.com",
+      "phone": "77010000080"
+    },
+    {
+      "id": "81",
+      "firstName": "Ayan",
+      "lastName": "Abayev",
+      "age": 37,
+      "email": "ayan.abayev81@example.com",
+      "phone": "77010000081"
+    },
+    {
+      "id": "82",
+      "firstName": "Altynai",
+      "lastName": "Akhmetova",
+      "age": 38,
+      "email": "altynai.akhметова82@example.com",
+      "phone": "77010000082"
+    },
+    {
+      "id": "83",
+      "firstName": "Nurzhan",
+      "lastName": "Baimuratov",
+      "age": 39,
+      "email": "nurzhan.baimuratov83@example.com",
+      "phone": "77010000083"
+    },
+    {
+      "id": "84",
+      "firstName": "Aigerim",
+      "lastName": "Dulatbek",
+      "age": 40,
+      "email": "aigerim.dulatbek84@example.com",
+      "phone": "77010000084"
+    },
+    {
+      "id": "85",
+      "firstName": "Yerbolat",
+      "lastName": "Esenova",
+      "age": 20,
+      "email": "yerbolat.esenova85@example.com",
+      "phone": "77010000085"
+    },
+    {
+      "id": "86",
+      "firstName": "Madina",
+      "lastName": "Zhakупova",
+      "age": 21,
+      "email": "madina.zhakупова86@example.com",
+      "phone": "77010000086"
+    },
+    {
+      "id": "87",
+      "firstName": "Dastan",
+      "lastName": "Iskakov",
+      "age": 22,
+      "email": "dastan.iskakov87@example.com",
+      "phone": "77010000087"
+    },
+    {
+      "id": "88",
+      "firstName": "Zhanar",
+      "lastName": "Kassenova",
+      "age": 23,
+      "email": "zhanar.kassenova88@example.com",
+      "phone": "77010000088"
+    },
+    {
+      "id": "89",
+      "firstName": "Baurzhan",
+      "lastName": "Mukashev",
+      "age": 24,
+      "email": "baurzhan.mukashev89@example.com",
+      "phone": "77010000089"
+    },
+    {
+      "id": "90",
+      "firstName": "Gulnur",
+      "lastName": "Nurgaliyev",
+      "age": 25,
+      "email": "gulnur.nurgaliyev90@example.com",
+      "phone": "77010000090"
+    },
+    {
+      "id": "91",
+      "firstName": "Serik",
+      "lastName": "Omarova",
+      "age": 26,
+      "email": "serik.omarова91@example.com",
+      "phone": "77010000091"
+    },
+    {
+      "id": "92",
+      "firstName": "Zhandos",
+      "lastName": "Rasulova",
+      "age": 27,
+      "email": "zhandos.rasulova92@example.com",
+      "phone": "77010000092"
+    },
+    {
+      "id": "93",
+      "firstName": "Dana",
+      "lastName": "Serikbayev",
+      "age": 28,
+      "email": "dana.serikbayev93@example.com",
+      "phone": "77010000093"
+    },
+    {
+      "id": "94",
+      "firstName": "Askar",
+      "lastName": "Tulegenov",
+      "age": 29,
+      "email": "askar.tulegenov94@example.com",
+      "phone": "77010000094"
+    },
+    {
+      "id": "95",
+      "firstName": "Farida",
+      "lastName": "Umarova",
+      "age": 30,
+      "email": "farida.umarова95@example.com",
+      "phone": "77010000095"
+    },
+    {
+      "id": "96",
+      "firstName": "Madi",
+      "lastName": "Yessengaliyev",
+      "age": 31,
+      "email": "madi.yessengaliyev96@example.com",
+      "phone": "77010000096"
+    },
+    {
+      "id": "97",
+      "firstName": "Saule",
+      "lastName": "Zharaskhanov",
+      "age": 32,
+      "email": "saule.zharaskhanov97@example.com",
+      "phone": "77010000097"
+    },
+    {
+      "id": "98",
+      "firstName": "Azamat",
+      "lastName": "Karimova",
+      "age": 33,
+      "email": "azamat.karimова98@example.com",
+      "phone": "77010000098"
+    },
+    {
+      "id": "99",
+      "firstName": "Aida",
+      "lastName": "Imashev",
+      "age": 34,
+      "email": "aida.imashev99@example.com",
+      "phone": "77010000099"
+    },
+    {
+      "id": "100",
+      "firstName": "Ruslan",
+      "lastName": "Jandosov",
+      "age": 35,
+      "email": "ruslan.jandosov100@example.com",
+      "phone": "77010000100"
+    }
+  ]
+}
