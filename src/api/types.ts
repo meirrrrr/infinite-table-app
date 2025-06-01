@@ -5,6 +5,8 @@ export interface RecordItem {
   age: number;
   email: string;
   phone: string;
+  address: string;
+  // при необходимости можно добавить дополнительные поля: address, city, country и т.п.
 }
 
 export interface RecordsResponse {
