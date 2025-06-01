@@ -53,5 +53,3 @@ export default tseslint.config({
 })
 ```
 # infinite-table-app
-# infinite-table-app
-# infinite-table-app
